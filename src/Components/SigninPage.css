@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.signinPage{
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+.signin__top{
+    width: 100%;
+    height: 88vh;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.signin__left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 53%;
+    height: 100%;
+}
+.img > img{
+    position: absolute;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.signin__right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 43%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.signin__right > .MuiSvgIcon-root{
+    font-size: 60px;
+    color:var(--twitter-color);
+}
+
+.signin__right h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+}
+
+.signin__right h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.signin__right span{
+    font-size: 20px;
+}
+
+.signin__right button{
+    width: 400px;
+    border-radius: 30px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.signin__button{
+    border: none;
+    color: white;
+    background-color: #1A91DA;
+}
+
+.login__button{
+    border: 1px solid var(--twitter-color);
+    color: var(--twitter-color);
+    background-color: white;
+}
+
+.signin__bottom{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.signin__bottom > .links{
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signin__bottom > .links > a,span{
+    text-decoration: none;
+    color: gray;
+}
